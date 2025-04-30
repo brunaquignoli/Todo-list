@@ -1,0 +1,40 @@
+.container{
+    width: 500px;
+    margin: 0 auto;
+    border: #000000;
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgba(247, 233, 233, 0.884);
+}
+
+#form-todo input {
+    border: 1px solid black;
+    height: 1rem;
+    flex: 1;
+    gap: 0 0.5rem;
+    padding-right: 300px;
+}
+
+#form-todo button {
+    background-color: yellow;
+    color: black;
+    width: 30px;
+    border: none;
+}
+
+#todo-list {
+    list-style-type: none;
+    border: 1px solid #EBEBEC;
+    word-wrap: break-word;
+    padding: 0;
+}
+
+#todo-list li {
+    padding: 0.5rem 1rem;
+}
+
+#todo-list li:nth-child(odd) {
+    background-color: #F6F6F6;
+}
